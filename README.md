@@ -16,7 +16,7 @@ listener.pyがサブスクライバーを使ってメッセージを受け取り
 
 ## 使い方
 ```
-➀　talkerとlistenerを使う場合
+➀  talkerとlistenerを使う場合
 
 パッケージをインストールした後端末を2つ用意する
 
@@ -39,7 +39,7 @@ $ ros2 run mypkg listener
 [INFO] [1672591354.253675383] [listener]: Listen: 12
 
 
-②　talk_listen.launch.pyを使う場合
+➁　talk_listen.launch.pyを使う場合
 
 パッケージをインストールした後
 

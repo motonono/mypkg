@@ -17,7 +17,8 @@ $ ros2 run mypkg listener
 
 と入力するとtalkerでカウントされている数字がlistenerを打った方の端末に表示される
 
-(例)
+(表示例)
+
 [INFO] [1672591352.264734808] [listener]: Listen: 8
 [INFO] [1672591352.752466694] [listener]: Listen: 9
 [INFO] [1672591353.253440655] [listener]: Listen: 10
@@ -29,10 +30,10 @@ $ ros2 run mypkg listener
 ```
 
 ## 必要なソフトウェア
-
+   テスト済み: Python 3.7～3.10  
 
 ## テスト環境
- Ubuntu 20.04
+ Ubuntu 22.04
 
 ## ライセンス
 このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されています。

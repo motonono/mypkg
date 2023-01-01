@@ -1,4 +1,4 @@
-# mypkg2 カウント
+# mypkg カウント
 [![test](https://github.com/motonono/mypkg2/actions/workflows/test.yml/badge.svg)](https://github.com/motonono/mypkg2/actions/workflows/test.yml)
 
 talker.pyでカウントした数字をlistener.pyで表示します

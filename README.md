@@ -2,12 +2,15 @@
 [![test](https://github.com/motonono/mypkg2/actions/workflows/test.yml/badge.svg)](https://github.com/motonono/mypkg2/actions/workflows/test.yml)
 
 talker.pyでカウントした数字をlistener.pyで表示します
+
 talker.pyがパブリッシャを使ってメッセージ(カウントした数字)をトピックを通して送り、
 listener.pyがサブスクライバーを使ってメッセージを受け取ります
+
 また、talk_listen.launch.pyを使うことでtalkerとlistenerの両方の機能を一度に使うことができます
 
 ## トピックの名前とメッセージの型
    名前: /countup
+
    型：  16ビット符号付き整数
 
 
@@ -70,4 +73,5 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 ## ライセンス
 このソフトウェアパッケージは、3条項BSDライセンスの下、再配布および使用が許可されています。
+
 Ⓒ 2022 Souma Nomoto
